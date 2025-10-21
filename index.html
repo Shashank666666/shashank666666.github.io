@@ -7,6 +7,11 @@
 <link rel="stylesheet" href="styles.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<script>
+function testLinkClick(linkName) {
+  console.log(linkName + ' link clicked');
+}
+</script>
 </head>
 <body>
 <header>
@@ -50,8 +55,9 @@
 <p>Hello! I'm a passionate web developer with 2+ years of experience creating modern, responsive websites and applications. I specialize in front-end development and love bringing designs to life with clean, efficient code.</p>
 <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or upskilling myself.</p>
 <div class="social-links">
-<a href="https://github.com/Shashank666666" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
-<a href="https://www.linkedin.com/in/shashank-a-232755370" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/Shashank666666" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-link github-link" onclick="testLinkClick('GitHub')"><i class="fab fa-github"></i></a>
+<a href="https://www.linkedin.com/in/shashank-a-232755370" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link linkedin-link" onclick="testLinkClick('LinkedIn')"><i class="fab fa-linkedin"></i></a>
+<a href="Shashank_Resume.docx" download class="social-link" aria-label="Download Resume"><i class="fas fa-file-alt"></i></a>
 </div>
 </div>
 </div>

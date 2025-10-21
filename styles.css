@@ -382,6 +382,8 @@ color: var(--gray-color);
 display: flex;
 gap: 1rem;
 margin-top: 2rem;
+z-index: 100;
+position: relative;
 }
 
 .social-links a {
@@ -395,6 +397,9 @@ color: var(--primary-color);
 border-radius: 50%;
 text-decoration: none;
 transition: var(--transition);
+z-index: 10;
+position: relative;
+pointer-events: auto;
 }
 
 .social-links a:hover {
